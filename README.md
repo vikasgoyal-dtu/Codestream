@@ -2,7 +2,7 @@
 CodeStream is a real-time collaborative code editor that enables multiple users to work simultaneously on the same codebase. It ensures seamless real-time synchronization of code changes across multiple users, making it an ideal tool for team collaborations and remote development.
 <hr>
 <h3>Demo</h3>
-Open Codestream : https://codestream.onrender.com/url
+Open Codestream : https://codestream-38yo.onrender.com/
 <hr>
 <h3>Features</h3>
 <ul>
@@ -40,7 +40,7 @@ To get started with CodeStream, follow these steps:
 <li>Install the required dependencies for both the frontend and backend using npm install.</li>
 <li>Start the server using npm start in the backend directory.</li>
 <li>Launch the frontend application with npm start in the frontend directory.</li>
-<li>Open your web browser and navigate to https://codestream.onrender.com/ to access CodeStream.</li>
+<li>Open your web browser and navigate to https://codestream-38yo.onrender.com/ to access CodeStream.</li>
 </ol>
 <hr>
 <h3>Usage</h3>
