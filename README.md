@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+CodeStream - Real-time Collaborative Code Editor
+CodeStream is a real-time collaborative code editor that enables multiple users to work simultaneously on the same codebase. It ensures seamless real-time synchronization of code changes across multiple users, making it an ideal tool for team collaborations and remote development.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Demo
+Open Codestream : https://codestream.onrender.com/url
 
-## Available Scripts
+Features
+Real-time Collaboration: CodeStream allows multiple developers to edit the same code in real-time. Changes made by one user are immediately visible to others, fostering a highly interactive and productive coding environment.
 
-In the project directory, you can run:
+Multiroom Feature: Collaborate on different projects by creating and joining multiple virtual rooms. Each room represents a separate codebase, ensuring a clean and organized workspace for each project.
 
-### `npm start`
+Change Theme: Personalize your coding experience by selecting from a variety of themes. Choose the one that best suits your preferences and enhances your productivity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Change Language: CodeStream supports multiple programming languages. Switch between different languages effortlessly, catering to the diverse needs of your development team.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Avatar of Users: Users are represented by avatars, making it easy to identify who is currently working on specific parts of the codebase.
 
-### `npm test`
+Notifications: Stay informed about important events and activities with real-time notifications. Never miss an update or a message from your team members.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Security: CodeStream prioritizes the security of your codebase and communications. All data transmissions are encrypted, ensuring a safe and secure environment for your projects.
 
-### `npm run build`
+Tech Stack
+Frontend: React, Codemirror
+Backend: Express, Node.js
+Real-time Communication: Socket.io
+Getting Started
+To get started with CodeStream, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository to your local machine.
+Install the required dependencies for both the frontend and backend using npm install.
+Start the server using npm start in the backend directory.
+Launch the frontend application with npm start in the frontend directory.
+Open your web browser and navigate to https://codestream.onrender.com/ to access CodeStream.
+Usage
+Sign Up or Log In: If you are a new user, sign up with your email and password. Otherwise, log in with your existing credentials.
+Create or Join a Room: After logging in, you can either create a new room or join an existing one. Each room represents a separate collaborative workspace for a specific project.
+Collaborate in Real-time: Once inside a room, you can start coding collaboratively with other users. Changes made by one user are instantly reflected on the screens of all other users in the same room.
+Personalize Your Experience: Customize your coding environment by changing the theme and selecting your preferred programming language.
+Stay Updated: Receive real-time notifications about new messages, code changes, and other important activities within your rooms.
+License
+CodeStream is released under the MIT License.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contact
+If you have any questions or feedback, feel free to reach out to our team at goyal.vikas289@gmail.com.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We hope you find CodeStream a valuable tool for enhancing collaboration and productivity in your development projects. Happy coding!
